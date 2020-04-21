@@ -1,0 +1,31 @@
+@media screen and (max-width: 1100px) {
+    .main {
+        max-width: 95%;
+    }
+    .main__field {
+        padding: 0 10px;
+        height: 530px;
+    }
+    .first, .third {
+        font-size: 28px;
+    }
+    .second {
+        font-size: 40px;
+    }
+    .menu__inner {
+        justify-content: space-around;
+    }
+    .btn {
+        width: 140px;
+        font-size: 20px;
+    }
+    .btn:hover {
+        font-size: 26px;
+    }
+    .coun {
+        font-size: 20px;
+    }
+    .center__block {
+        justify-content: space-around;
+    }
+}

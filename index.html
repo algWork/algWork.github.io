@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./for_laptops.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="message__block">
+        <h1 class="message">К сожалению вашем устройство не может хорошо отображать этот сайт</h1>
+        <h2 class="message1">Длина вашего экрана должна состовлять более 1000px</h2>
+    </div>
+    <div class="body">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="first">Линейный Поиск</div>
+                    <!-- <div class="btn__left"> -->
+                        <img src="./img/pointer.png" alt="jopa" class="left">
+                    <!-- </div> -->
+                    <div class="second">Бинарный Поиск</div>
+                    <!-- <div class="btn__right"> -->
+                        <img src="./img/pointer1.png" alt="jopa" class="right">
+                    <!-- </div> -->
+                    <div class="third">Сортировка пузырьком</div>
+                </div>
+            </div>
+        </header>
+        <div class="menu">
+            <div class="menu__inner">
+                <div class="items">
+                    <ul>
+                        <li class="item">Массив: <span id="val">15</span></li>
+                        <li class="item">Сумма: <span id="items">20</span></li>
+                        <li class="item">Операций: <span id="ops">0</span></li>
+                    </ul>
+                </div>
+                <div class="f__element">
+                    <label for="fname" class="element">Найти элемент : </label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main__field">
+                <div class="arrays">
+                    <div class="town size1">10</div>
+                    <div class="town size2">20</div>
+                    <div class="town size3">12</div>
+                    <div class="town size4">18</div>
+                    <div class="town size5">27</div>
+                    <div class="town size6">18</div>
+                    <div class="town size7">14</div>
+                    <div class="town size8">11</div>
+                    <div class="town size9">15</div>
+                    <div class="town size10">29</div>
+                </div>
+            </div>
+            <div class="settings">
+                <div class="center__block">
+                    <div class="start__random">
+                        <button class="btn">Start</button>
+                        <button class="btn" id="ran">Random</button>
+                    </div>
+                    <div class="arrays__count">
+                        <label for="count" class="coun">Массив: </label>
+                        <input type="text" id="count" name="count">
+                    </div>
+                    <div class="values">
+                        <span class="coun">Значения с </span><input type="text" id="value"><span class="coun"> по </span> <input type="text" id="value1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/data.js"></script>
+<script src="./js/funcs.js"></script>
+<script src="./js/random.js"></script>
+<script src="./js/algorithms.js"></script>
+<script src="./js/index.js"></script>
+</html>
