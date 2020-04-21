@@ -12,10 +12,7 @@ body {
 
 .header {
     border-bottom: solid 1px #3e4040;
-    position: fixed;
     width: 100%;
-    top: 0;
-    left: 0;
     z-index: 1000;
     background-color: #fff;
 }
@@ -56,7 +53,7 @@ body {
     width: 100%;
     max-width: 1000px;
     height: 50px;
-    margin: 140px auto 25px;
+    margin: 20px auto 25px;
 }
 
 .menu__inner {
