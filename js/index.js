@@ -51,17 +51,17 @@ data.start.addEventListener("click", () => {
     clear__fields();
     
     if(data.is__calling === false) {
-        if(data.middle.innerHTML === 'Линейный Поиск') {
+        if(data.middle.innerHTML === 'Linear Search') {
             linear();
-        }else if(data.middle.innerHTML === 'Бинарный Поиск') {
+        }else if(data.middle.innerHTML === 'Binary Search') {
             binary();
-        }else if(data.middle.innerHTML === 'Сортировка пузырьком') {
+        }else if(data.middle.innerHTML === 'Bubble Sort') {
             buble();
             data.is__sorted = true;
-        }else if(data.middle.innerHTML === 'Cортировка Вставок'){
+        }else if(data.middle.innerHTML === 'Insertion Sort'){
             insertion();
             data.is__sorted = true;
-        }else if(data.middle.innerHTML === 'Сортировка Cлиянием'){
+        }else if(data.middle.innerHTML === 'Merge Sort'){
             data.main__array = mergeSort(data.main__array);
             print__array();
             data.is__sorted = true;

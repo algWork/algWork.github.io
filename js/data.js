@@ -1,5 +1,5 @@
 const data = {
-    names__array: ['', 'Линейный Поиск', 'Бинарный Поиск', 'Сортировка пузырьком', 'Cортировка Вставок', 'Сортировка Cлиянием', 'Сортировка выбором', ''],
+    names__array: ['', 'Linear Search', 'Binary Search', 'Bubble Sort', 'Insertion Sort', 'Merge Sort', 'Selection Sort', ''],
     left: document.querySelector(".first"),
     middle: document.querySelector(".second"),
     right: document.querySelector(".third"),
